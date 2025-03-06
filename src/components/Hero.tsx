@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Play, ChevronDown } from 'lucide-react';
 
