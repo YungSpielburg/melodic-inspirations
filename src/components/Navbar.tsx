@@ -32,14 +32,11 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="h-8 w-8">
-              <div className="grid grid-cols-2 gap-[2px] h-full">
-                <div className="bg-got-green transform -rotate-45"></div>
-                <div className="bg-got-green transform rotate-45"></div>
-                <div className="bg-got-green transform rotate-45"></div>
-                <div className="bg-got-green transform -rotate-45"></div>
-              </div>
-            </div>
+            <img 
+              src="/lovable-uploads/2e877370-95d7-4bfe-91b9-f1701d453a48.png" 
+              alt="GOT U LABS Logo" 
+              className="h-8"
+            />
             <h1 className="text-xl font-bold text-got-green">GOT U LABS</h1>
           </div>
 

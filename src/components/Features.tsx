@@ -54,18 +54,15 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Powerful Features for <span className="text-got-green">Professional Production</span>
+            You want choirs? <span className="text-got-green">We GOT choirs.</span>
           </h2>
-          <p className="text-got-light/70">
-            GOT CHOIRS delivers an unmatched choir experience with advanced features designed for both beginners and professional producers.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard
             icon={<Music size={24} />}
-            title="Multiple Choir Types"
-            description="Access a diverse range of choir types including male, female, children, and mixed choirs for maximum versatility."
+            title="Choir Sounds"
+            description="Tap into a Gospel Choir, Children's Choir, and 10 individual voice models from our choirs."
           />
           <FeatureCard
             icon={<Sliders size={24} />}

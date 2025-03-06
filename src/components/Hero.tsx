@@ -47,7 +47,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-got-light/80 mb-10 max-w-3xl opacity-0 animate-fade-in-delay-100">
-            The ultimate choir instrument plugin that delivers pristine, emotion-rich vocal sounds to elevate your productions.
+            Transform one vocal into the iconic sound of a choir––anywhere, instantly
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-16 opacity-0 animate-fade-in-delay-200">
@@ -61,7 +61,7 @@ const Hero = () => {
               href="#demo" 
               className="btn-hover-effect bg-transparent border border-got-green/50 text-got-green font-medium py-3 px-8 rounded-full hover:border-got-green hover:bg-got-green/5 flex items-center justify-center gap-2"
             >
-              <Play size={18} /> Listen Demo
+              <Play size={18} /> Demo
             </a>
           </div>
           

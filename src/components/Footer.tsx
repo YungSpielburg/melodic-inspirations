@@ -8,14 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-6 w-6">
-                <div className="grid grid-cols-2 gap-[2px] h-full">
-                  <div className="bg-got-green transform -rotate-45"></div>
-                  <div className="bg-got-green transform rotate-45"></div>
-                  <div className="bg-got-green transform rotate-45"></div>
-                  <div className="bg-got-green transform -rotate-45"></div>
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/2e877370-95d7-4bfe-91b9-f1701d453a48.png" 
+                alt="GOT U LABS Logo" 
+                className="h-6"
+              />
               <h2 className="text-lg font-bold text-got-green">GOT U LABS</h2>
             </div>
             <p className="text-got-light/60 text-sm">
