@@ -57,7 +57,7 @@ const Demo = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Listen to <span className="text-got-green">GOT CHOIRS</span> in Action
+            Listen to <span className="text-got-green">GOT CHOIRS</span>
           </h2>
           <p className="text-got-light/70">
             Experience the powerful, emotional and versatile sounds of GOT CHOIRS through these demo tracks.

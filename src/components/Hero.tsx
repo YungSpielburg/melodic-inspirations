@@ -32,18 +32,13 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+    <section className="relative pt-20 pb-12 md:pt-24 md:pb-16 overflow-hidden">
       <div className="hero-gradient absolute inset-0 pointer-events-none"></div>
       
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
-          <div className="inline-flex items-center px-3 py-1 mb-4 rounded-full bg-got-green/10 border border-got-green/20">
-            <span className="text-got-green text-sm font-medium">Introducing GOT CHOIRS</span>
-          </div>
-          
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 opacity-0 animate-fade-in">
-            Transform Your Music with <br />
-            <span className="text-got-green">Exceptional Choir Sounds</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-4 opacity-0 animate-fade-in">
+            You want choirs? <span className="text-got-green">We GOT choirs.</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-got-light/80 mb-10 max-w-3xl opacity-0 animate-fade-in-delay-100">
@@ -80,7 +75,7 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="flex justify-center mt-20 opacity-0 animate-fade-in-delay-400">
+        <div className="flex justify-center mt-10 opacity-0 animate-fade-in-delay-400">
           <button 
             onClick={scrollToFeatures}
             className="text-got-light/70 hover:text-got-green transition-colors flex flex-col items-center"

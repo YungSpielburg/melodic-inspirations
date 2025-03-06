@@ -50,28 +50,28 @@ const FeatureCard = ({ icon, title, description, className = '' }: {
 
 const Features = () => {
   return (
-    <section id="features" className="py-16 md:py-24">
+    <section id="features" className="py-12 md:py-16">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            You want choirs? <span className="text-got-green">We GOT choirs.</span>
-          </h2>
+        <div className="text-center max-w-3xl mx-auto mb-10">
+          <p className="text-lg md:text-xl text-got-orange mb-6">
+            No more "oohs" and "aahs" — Get the choir tool you always wanted. Sing and the choir will match your vocal exactly!
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard
             icon={<Music size={24} />}
-            title="Choir Sounds"
+            title="Iconic Choir Sounds"
             description="Tap into a Gospel Choir, Children's Choir, and 10 individual voice models from our choirs."
           />
           <FeatureCard
             icon={<Sliders size={24} />}
-            title="Advanced Articulation"
+            title="Multiple Mic Selection"
             description="Fine-tune your choir sounds with detailed articulation controls for authentic vocal expressions."
           />
           <FeatureCard
             icon={<Wand2 size={24} />}
-            title="Smart Voice Processing"
+            title="Single Vocal to Choir"
             description="Our intelligent voice blending technology creates natural-sounding choirs that sit perfectly in any mix."
           />
           <FeatureCard
@@ -89,6 +89,15 @@ const Features = () => {
             title="Customizable Interface"
             description="Personalize your workflow with a fully customizable interface that adapts to your production style."
           />
+        </div>
+
+        <div className="flex justify-center mt-16">
+          <a 
+            href="#buy" 
+            className="btn-hover-effect bg-got-orange text-white font-medium py-3 px-8 rounded-full hover:shadow-lg hover:shadow-got-orange/20 flex items-center justify-center"
+          >
+            Buy Now
+          </a>
         </div>
       </div>
     </section>
