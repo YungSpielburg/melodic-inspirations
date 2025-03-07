@@ -48,7 +48,8 @@ const Navbar = () => {
             <a href="#testimonials" className="text-got-light hover:text-got-green transition-colors">Testimonials</a>
             <a 
               href="#buy" 
-              className="btn-hover-effect text-got-dark bg-got-green font-medium py-2 px-6 rounded-full hover:shadow-lg hover:shadow-got-green/20"
+              className="btn-hover-effect text-got-dark font-medium py-2 px-6 rounded-full hover:shadow-lg hover:shadow-got-green/20"
+  style={{ backgroundColor: '#F5A623' }}
             >
               Buy Now Please for me daddy
             </a>
