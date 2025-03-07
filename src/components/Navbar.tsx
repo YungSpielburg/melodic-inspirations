@@ -72,7 +72,7 @@ const Navbar = () => {
                 className="text-got-light hover:text-got-green transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Features
+                Features!!!
               </a>
               <a 
                 href="#demo" 
