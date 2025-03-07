@@ -51,7 +51,7 @@ const Navbar = () => {
               className="btn-hover-effect text-got-dark font-medium py-2 px-6 rounded-full hover:shadow-lg hover:shadow-got-green/20"
   style={{ backgroundColor: '#F5A623' }}
             >
-              Buy Now Please for me daddy
+              Buy Now Please for me daddy pweeeease
             </a>
           </div>
 
