@@ -50,7 +50,7 @@ const Navbar = () => {
               href="#buy" 
               className="btn-hover-effect text-got-dark bg-got-green font-medium py-2 px-6 rounded-full hover:shadow-lg hover:shadow-got-green/20"
             >
-              Buy Now!!!
+              Buy Now BITCH!
             </a>
           </div>
 
